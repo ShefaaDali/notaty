@@ -1,4 +1,4 @@
-const baseUrl="https://notaty.onrender.com:5000";
+const baseUrl="https://notaty.onrender.com";
 async function addNote(noteData){
     const response =await fetch(`${baseUrl}/notes`,{
         method:"POST",
